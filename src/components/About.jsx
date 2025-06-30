@@ -19,7 +19,7 @@ const About = () => {
       scrollTimeline.from(titleSplit.words, {
         opacity:0, duration:1, yPercent: 100, ease: 'expo.out',
         stagger: 0.02
-      }).from('top-grid div, bottom-grid div', {
+      }).from('.top-grid div, .bottom-grid div', {
         opacity:0, duration:1, ease: 'power1.inOut', stagger: 0.04,
       }, '-=0.5')
   })
@@ -33,7 +33,7 @@ const About = () => {
               from muddle to garnish</h2>
             </div>
              
-          </div><div className="sub-content">
+          <div className="sub-content">
             <p>
               Every Cocktail we server is a reflection of our obsession to detail -
               from the first muddle to the final garnish. that care turns a simple drink into
@@ -48,7 +48,7 @@ const About = () => {
               </p>
             </div>
           </div>
-
+            </div>
         </div>
         <div className="top-grid">
 
@@ -71,7 +71,7 @@ const About = () => {
           </div>
 
         </div>
-
+ 
         <div className="bottom-grid">
            <div className="md:col-span-8">
             <div className="noisy">

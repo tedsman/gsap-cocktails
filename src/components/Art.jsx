@@ -62,7 +62,7 @@ const Art = () => {
             <h2 className='will-fade'>Sip worthy perfection</h2>
             <div id="masked-content">
               <h2>Made with Craft  Poured with Passion</h2>
-              <p>This isn't hust a drink. It is a carefully crafterd moment made jsut for you</p>
+              <p>This isn't just a drink. It is a carefully crafterd moment made jsut for you</p>
             </div>
           </div>
         </div>
